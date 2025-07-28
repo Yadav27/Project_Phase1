@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Place Order</title>
+</head>
+<body>
+<h2>Place a Stock Order</h2>
+<form action="/orders/place" method="post">
+    <input type="text" name="userId" placeholder="User ID"><br><br>
+    <input type="text" name="stockSymbol" placeholder="Stock Symbol"><br><br>
+    <input type="number" name="quantity" placeholder="Quantity"><br><br>
+    <button type="submit">Place Order</button>
+</form>
+</body>
+</html>
